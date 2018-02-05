@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	for(i=1;i<=5;i++) //i= no of rows 
+{
+	for(j=1;j<=5;j++) //j= no of columns and print 1 at first so j=1
+	{
+		printf("%d",i); //if we print j 12345 will be dispayed so i=1  for 1 row ,i=2 for nd and so on.
+	}
+	printf("\n");
+}
+return 0;
+}
