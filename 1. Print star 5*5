@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-inti,j;
-for(i=1;i<=5;i++)
+int i,j; //i=row and j=column
+for(i=1;i<=5;i++) //i prints 5 row
 {
-for(j=1;j<=5;j++)
+for(j=1;j<=5;j++) //j prints 5 columns 
 {
-printf("*");
+printf("*"); 
 }
-	printf("\n");
+	printf("\n"); //after 5 stars in each row change row
 	}
 return0;
 }
